@@ -3,7 +3,7 @@
 
 import React, { createContext, useContext, useState, useEffect, useRef, useCallback } from 'react';
 
-const WEBSOCKET_URL = 'ws://live-poll-battle-8pff.onrender.com';
+const WEBSOCKET_URL = 'wss://live-poll-battle-8pff.onrender.com';
 
 interface WebSocketContextType {
     isConnected: boolean;
