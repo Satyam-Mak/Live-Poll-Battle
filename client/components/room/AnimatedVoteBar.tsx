@@ -16,8 +16,8 @@ export default function AnimatedVoteBar({ label, voteCount, totalVotes, color }:
     return (
         <div className="w-full">
             <div className="flex justify-between items-center mb-1">
-                <span className="font-semibold text-lg">{label}</span>
-                <span className="font-bold text-xl">{voteCount}</span>
+                <span className="font-semibold text-lg text-gray-800">{label}</span>
+                <span className="font-bold text-xl text-gray-800">{voteCount}</span>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-8 overflow-hidden">
                 <motion.div
